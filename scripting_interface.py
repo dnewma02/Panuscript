@@ -29,17 +29,11 @@ def main():
         # ps.magick_exe_dir() # set the directory to the ImageMagick exectable.
         # ps.citeproc_exe_dir() # set the directory to the pandoc-citeproc executable.
 
-        print(ps.configure(working_dir='', verbose=True, dpi=96, engine='pdflatex',
-                        citations=False, biblio='', csl='/home/dan/projects/panuscript/csls/apa.csl',
-                        linkcites=True, toc=0, atx_header=False, preserve_tabs=False,
-                        resize=150, grayscale=True))
 
-        '''Panuscriot Operations'''
-        doc = "/home/dan/projects/panuscript/notes.docx"
-        img = "/home/dan/projects/panuscript/notes_image1.png"
-        bib = "/home/dan/projects/panuscript/test_biblio.bib"
-        test = "/home/dan/projects/panuscript/example.md"
-        doc = '/home/dan/Documents/workspace/Scholarships/Vanier/personal_leadership_statement.md'
+        '''Panuscript Operations'''
+        doc = "/path/to/document"
+        img = "/path/to/image"
+        bib = "/path/to/bib"
         # print([f for f in ps.extract_media(doc)]) # Returns a list of absolute paths for extracted graphical media from the specified document to document's directory.
         # ps.convert_document('markdown', 'latex', doc, doc.replace(".md",".tex")) # Coverts the input format to the output format. Custom commands (if supported by Pandoc) can be passed in an option args list.
         # ps.convert_document('latex', 'pdf', doc.replace('.md','.tex'), doc.replace('.md','.pdf'))

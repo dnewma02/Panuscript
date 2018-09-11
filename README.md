@@ -1,4 +1,4 @@
-*This page is related to the Python wrapper **Panuscript** for document conversion using **Pandoc** and **ImageMagick**.*
+# Panuscript
 
 **Contents**
 
