@@ -43,7 +43,7 @@ The **Panuscript** wrapper is distributed under the [MIT license](LICENSE.txt), 
 
 ## 5 Usage
 
-Currently `scripting_interface.py` is the primary way to interact with Panuscript. In the future a simple TK gui may be added
+Currently, `scripting_interface.py` is the primary way to interact with Panuscript. In the future a simple TK gui may be added.
 
 ### Viewing information
 Several functions are provided to view information about the underlying software.
