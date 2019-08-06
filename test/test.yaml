@@ -1,0 +1,14 @@
+---
+references:
+- id: Test
+  type: article-journal
+  author:
+  - family: Testla
+    given: Nikola
+  issued:
+  - year: 1856
+  title: Testing, 1..2..3.
+  container-title: Journal of Testing
+  abstract: Testing is good for many reasons.
+  keyword: test,these
+...
